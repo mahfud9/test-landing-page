@@ -1,0 +1,259 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+  width:960px;
+}
+
+p{
+  color:#525252;
+  font-size:12px;
+}
+
+.skillbar {
+	position:relative;
+	display:block;
+	margin-bottom:15px;
+	width:100%;
+	background:#eee;
+	height:35px;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	-webkit-transition:0.4s linear;
+	-moz-transition:0.4s linear;
+	-ms-transition:0.4s linear;
+	-o-transition:0.4s linear;
+	transition:0.4s linear;
+	-webkit-transition-property:width, background-color;
+	-moz-transition-property:width, background-color;
+	-ms-transition-property:width, background-color;
+	-o-transition-property:width, background-color;
+	transition-property:width, background-color;
+}
+
+.skillbar-title {
+	position:absolute;
+	top:0;
+	left:0;
+width:110px;
+	font-weight:bold;
+	font-size:13px;
+	color:#ffffff;
+	background:#6adcfa;
+	-webkit-border-top-left-radius:3px;
+	-webkit-border-bottom-left-radius:4px;
+	-moz-border-radius-topleft:3px;
+	-moz-border-radius-bottomleft:3px;
+	border-top-left-radius:3px;
+	border-bottom-left-radius:3px;
+}
+
+.skillbar-title span {
+	display:block;
+	background:rgba(0, 0, 0, 0.1);
+	padding:0 20px;
+	height:35px;
+	line-height:35px;
+	-webkit-border-top-left-radius:3px;
+	-webkit-border-bottom-left-radius:3px;
+	-moz-border-radius-topleft:3px;
+	-moz-border-radius-bottomleft:3px;
+	border-top-left-radius:3px;
+	border-bottom-left-radius:3px;
+}
+
+.skillbar-bar {
+	height:35px;
+	width:0px;
+	background:#6adcfa;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+}
+
+.skill-bar-percent {
+	position:absolute;
+	right:10px;
+	top:0;
+	font-size:11px;
+	height:35px;
+	line-height:35px;
+	color:#ffffff;
+	color:rgba(0, 0, 0, 0.4);
+}
+
+.navbar{
+ background:#6495ED	;
+ }
+ .nav-link , .navbar-brand{
+ color: #f4f4f4; 
+ cursor: pointer;
+ }
+ .nav-link{
+ margin-right: 1em !important;
+ }
+.nav-link:hover{
+ background: #f4f4f4;
+ color: #f97300; 
+ }
+.navbar-collapse{
+ justify-content: flex-end;
+ }
+.navbar-toggler{
+  background:#fff !important;
+  }
+.navbar-collapse{
+ justify-content: flex-end;
+}
+.bg-dark{
+background-color:#343a40!important
+}
+.bg-primary{
+background-color:#007bff!important
+}
+.header{
+ background-image: url('../images/bg-1.jpg');
+ background-attachment: fixed;
+ background-size: cover;
+ background-position: center;
+ height:100vh;
+}
+.overlay{
+ position: absolute;
+ min-height: 100%;
+ min-width: 100%;
+ left: 0;
+ top: 0;
+}
+.description{
+    position: absolute;
+    top: 30%;
+    margin: auto;
+    padding: 2em;
+}
+.description h1{
+ color:#6495ED ;
+}
+.description p{
+ color:#000000;
+ font-size: 20px;
+ width: 50%;
+ line-height: 1.5;
+}
+.description button{
+ border:1px  solid #6495ED	;
+ background:#6495ED	;
+ color:#fff;
+}
+.about{
+ margin: 0em 0;
+ padding: 0em;
+ position: relative;
+}
+#about .about-text {
+    margin-left: 10px;
+}
+.text-center {
+    text-align: center;
+}
+.media (min-width: 992px)
+.col-md-offset-2 {
+    margin-left: 16.66666667%;
+}
+.about h1{
+ color:#6495ED;
+ margin: 2em;
+}
+.about img {
+    height: 285px;
+    width: 88%;
+    border-radius: 0%;
+}
+.about span{
+ display: block;
+ color: #888;
+ position: absolute;
+ left: 115px;
+}
+.about .desc{
+ padding: 2em;
+ border-left:4px solid #10828C;
+}
+.about .desc h3{
+margin-top: 10px;
+margin-bottom: 15px;
+font-size:2.4rem;
+line-height: 3.125rem;
+ color: #000000;
+}
+.about .desc p{
+ line-height:2;
+ color:#888;
+}
+p {
+    margin-top: 1px;
+    margin-bottom: 1rem;
+	font-size:15px;
+}
+.portfolio{
+ margin: 4em 0;
+    position: relative; 
+}
+.portfolio h1{
+ color:#6495ED;
+ margin: 2em; 
+}
+.portfolio img{
+  height: 340px;
+  width: 100%;
+  margin: 1em;
+  object-fit: cover;
+}
+.blog{
+ margin: 4em 0;
+ position: relative; 
+}
+.blog h1{
+ color:#6495ED;
+ margin: 2em; 
+}
+.blog .card{
+ box-shadow: 0 0 20px #ccc;
+}
+.blog .card img{
+ width: 349px;
+ height: 21em;
+}
+.blog .card-title{
+ color:#6495ED;
+  
+}
+.blog .card-body{
+ padding: 1em;
+}
+.contact-form{
+ margin: 6em 0;
+ position: relative;  
+}
+.contact-form h1{
+ padding:2em 1px;
+ color: #F97300; 
+}
+.contact-form .right{
+ max-width: 600px;
+}
+.contact-form .right .btn-secondary{
+ background:  #F97300;
+ color: #fff;
+ border:0;
+}
+.contact-form .right .form-control::placeholder{
+ color: #888;
+ font-size: 16px;
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+ 
+ html,h1,h2,h3,h4,h5,h6,a{
+ font-family: "Raleway";
+}
